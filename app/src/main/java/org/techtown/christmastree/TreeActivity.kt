@@ -15,16 +15,10 @@ class TreeActivity : AppCompatActivity() {
         binding = ActivityTreeBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-//        treeMakingIntro()
+
 
     }
 
-//    private fun treeMakingIntro() {
-//        Handler(Looper.getMainLooper()).postDelayed({
-//            startActivity(Intent(this, TreeSplashActivity::class.java))
-//            finish()
-//        }, 5000)
-//    }
     fun chooseItem(){
 
     }
