@@ -5,13 +5,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <ImageView
-        android:layout_width="200dp"
+        android:layout_width="150dp"
         android:layout_height="250dp"
-        
+        android:layout_margin="20dp"
+        android:src="@drawable/tree"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
 
     <View
         android:id="@+id/splash_tree_view"
-        android:layout_width="200dp"
+        android:layout_width="190dp"
         android:layout_height="200dp"
         android:background="@drawable/radius_pink_bg"
         android:layout_margin="20dp"
@@ -26,7 +31,7 @@
         android:text="바쁜 스케쥴의 shine을 위해"
         android:textColor="@color/white"
         android:textStyle="bold"
-        android:textSize="13sp"
+        android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@id/splash_tree2_tv"
         app:layout_constraintStart_toStartOf="@id/splash_tree_view"
         app:layout_constraintEnd_toEndOf="@id/splash_tree_view"
@@ -38,7 +43,7 @@
         android:text="제작된 트리메이커!"
         android:textColor="@color/white"
         android:textStyle="bold"
-        android:textSize="13sp"
+        android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@id/splash_tree3_tv"
         app:layout_constraintStart_toStartOf="@id/splash_tree_view"
         app:layout_constraintEnd_toEndOf="@id/splash_tree_view"
@@ -50,8 +55,22 @@
         android:text="트리를 예쁘게 꾸며주세요~"
         android:textColor="@color/white"
         android:textStyle="bold"
-        android:textSize="13sp"
+        android:textSize="15sp"
         app:layout_constraintTop_toTopOf="@id/splash_tree_view"
+        app:layout_constraintBottom_toBottomOf="@id/splash_tree_view"
+        app:layout_constraintStart_toStartOf="@id/splash_tree_view"
+        app:layout_constraintEnd_toEndOf="@id/splash_tree_view"
+        />
+
+    <TextView
+        android:id="@+id/splash_tree_start_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START!"
+        android:textColor="#ffccaa"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toBottomOf="@id/splash_tree_view"
         app:layout_constraintStart_toStartOf="@id/splash_tree_view"
         app:layout_constraintEnd_toEndOf="@id/splash_tree_view"
