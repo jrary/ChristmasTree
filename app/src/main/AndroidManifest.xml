@@ -20,6 +20,7 @@
         <activity android:name=".TreeSplashActivity" />
         <activity android:name=".TreeActivity" />
         <activity android:name=".CookieActivity" />
+        <activity android:name=".MoreActivity" />
     </application>
 
 </manifest>
