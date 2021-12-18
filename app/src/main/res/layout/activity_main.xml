@@ -60,7 +60,7 @@
         android:id="@+id/main_feedback_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="이건 무슨 버튼일까 궁금하지? 근데 꼭 마지막에 눌러야 함! 다 보고 마지막에 눌러보자 이 버튼 마지막에 눌러보자! 너무 누르고 싶다. 빨리 눌러봐 이게 무슨 버튼일까... 진짜 궁금하다 너무 누르고 싶다! 꼭 눌러보자! 근데 꼭 마지막에 눌러!!"
+        android:text="이건 무슨 버튼일까 궁금하지? 근데 꼭 마지막에 눌러야 함! 이 버튼 마지막에 눌러보자! 너무 누르고 싶다..."
         android:backgroundTint="@color/black"
         app:layout_constraintTop_toBottomOf="@id/main_more_btn"
         app:layout_constraintBottom_toBottomOf="parent"

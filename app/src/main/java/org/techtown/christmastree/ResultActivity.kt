@@ -5,27 +5,17 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
+import org.techtown.christmastree.databinding.ActivityCookieBinding
+import org.techtown.christmastree.databinding.ActivityMoreBinding
+import org.techtown.christmastree.databinding.ActivityResultBinding
 import org.techtown.christmastree.databinding.ActivityTreeBinding
 
-class TreeActivity : AppCompatActivity() {
-    lateinit var binding: ActivityTreeBinding
+class ResultActivity : AppCompatActivity() {
+    lateinit var binding: ActivityResultBinding
 
     override fun onCreate(savedInstanceState: Bundle?){
         super.onCreate(savedInstanceState)
-        binding = ActivityTreeBinding.inflate(layoutInflater)
+        binding = ActivityResultBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-        val result = Intent(this@TreeActivity, ResultActivity::class.java)
-
-        binding.treeSubmitBtn.setOnClickListener{
-            startActivity(result)
-        }
-
     }
-
-    fun chooseItem(){
-
-    }
-
-
 }
