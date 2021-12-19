@@ -155,12 +155,38 @@
        android:id="@+id/cookie_message_tv"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:text="히히"
+       android:text=""
        android:textSize="20sp"
        android:textColor="@color/black"
        android:layout_marginStart="50dp"
        android:layout_marginBottom="200dp"
        app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintBottom_toBottomOf="parent"
+       />
+
+   <Button
+       android:id="@+id/cookie_retry_btn"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Retry"
+       android:backgroundTint="@color/black"
+       android:layout_margin="40dp"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintEnd_toEndOf="@id/cookie_home_btn"
+       app:layout_constraintTop_toBottomOf="@id/cookie_message_tv"
+       app:layout_constraintBottom_toBottomOf="parent"
+       />
+
+   <Button
+       android:id="@+id/cookie_home_btn"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Home"
+       android:backgroundTint="@color/black"
+       android:layout_margin="40dp"
+       app:layout_constraintStart_toStartOf="@id/cookie_retry_btn"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toBottomOf="@id/cookie_message_tv"
        app:layout_constraintBottom_toBottomOf="parent"
        />
 

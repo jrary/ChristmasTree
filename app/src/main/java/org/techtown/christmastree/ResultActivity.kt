@@ -42,6 +42,7 @@ class ResultActivity : AppCompatActivity() {
 
         binding.resultRetryBtn.setOnClickListener {
             multiFinish()
+            startActivity(tree)
         }
         binding.resultHomeBtn.setOnClickListener {
             multiFinish()

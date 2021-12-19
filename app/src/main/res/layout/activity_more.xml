@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/more_song_1_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Music provided by 브금대통령"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+    <TextView
+        android:id="@+id/more_song_2_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="224. Christmas Overture"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/more_song_1_tv"
+        />
+    <TextView
+        android:id="@+id/more_song_3_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="229. Silent Christmas Night"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/more_song_2_tv"
+        />
+    <TextView
+        android:id="@+id/more_song_4_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="435. Merry Christmas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/more_song_3_tv"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

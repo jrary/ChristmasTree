@@ -46,11 +46,35 @@
         />
 
     <TextView
+        android:id="@+id/main_sources_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Music sources"
+        android:textSize="11sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/main_line_tv"
+        />
+
+    <TextView
+        android:id="@+id/main_line_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="|"
+        android:textSize="11sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/main_feedback_tv"
+        />
+
+    <TextView
         android:id="@+id/main_feedback_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="오류 제보 &amp; Comments"
-        android:textSize="13sp"
+        android:textSize="11sp"
         android:layout_margin="20dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
