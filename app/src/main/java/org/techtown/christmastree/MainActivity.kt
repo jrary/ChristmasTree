@@ -1,25 +1,26 @@
 package org.techtown.christmastree
 
 import android.content.Intent
+import android.media.AudioManager
 import android.media.MediaPlayer
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import org.techtown.christmastree.databinding.ActivityMainBinding
+import java.util.*
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
-
     private lateinit var song: MediaPlayer
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-        song = MediaPlayer.create(this, R.raw.christmas_overture)
+        song = MediaPlayer.create(this, R.raw.silent_christmas_night)
         song.start()
-
+        song.isLooping = true
 
         val tree = Intent(this@MainActivity, TreeSplashActivity::class.java)
         val cookie = Intent(this@MainActivity, CookieActivity::class.java)

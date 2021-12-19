@@ -21,6 +21,7 @@
         <activity android:name=".TreeActivity" android:taskAffinity="com.t.multiFinish"/>
         <activity android:name=".CookieActivity" />
         <activity android:name=".ResultActivity" android:taskAffinity="com.t.multiFinish"/>
+        <activity android:name=".MoreActivity" />
     </application>
 
 </manifest>

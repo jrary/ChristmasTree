@@ -5,6 +5,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UMC 12월 이벤트★ - by 샤인"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.4"
+        />
+    <TextView
         android:id="@+id/more_song_1_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -18,28 +28,10 @@
         android:id="@+id/more_song_2_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="224. Christmas Overture"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/more_song_1_tv"
-        />
-    <TextView
-        android:id="@+id/more_song_3_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="229. Silent Christmas Night"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/more_song_2_tv"
-        />
-    <TextView
-        android:id="@+id/more_song_4_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="435. Merry Christmas"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/more_song_3_tv"
+        app:layout_constraintTop_toBottomOf="@id/more_song_1_tv"
         />
 
 

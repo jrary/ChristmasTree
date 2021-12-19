@@ -18,7 +18,7 @@ class CookieActivity : AppCompatActivity() {
             "일만 열심히 합니다",
             "자퇴를 합니다",
             "잠을 잡니다",
-            "취업에 성공합니다",
+            "취업을 합니다",
             "공부를 열심히 합니다",
             "맛있는 것을 많이 먹습니다"
     )
@@ -161,6 +161,6 @@ class CookieActivity : AppCompatActivity() {
 
     private fun setRandom(): Int{
         val random = Random()
-        return random.nextInt(9)
+        return random.nextInt(10)
     }
 }

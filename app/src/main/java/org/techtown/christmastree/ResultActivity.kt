@@ -102,7 +102,7 @@ class ResultActivity : AppCompatActivity() {
         if(blink>0) score += 10
         if(present>0) score += 10
 
-        score += random.nextInt(8)
+        score += random.nextInt(9)
         Log.d("SATI SCORE", score.toString())
         return score
     }
