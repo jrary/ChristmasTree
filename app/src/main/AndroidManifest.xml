@@ -17,10 +17,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TreeSplashActivity" />
-        <activity android:name=".TreeActivity" />
+        <activity android:name=".TreeSplashActivity" android:taskAffinity="com.t.multiFinish"/>
+        <activity android:name=".TreeActivity" android:taskAffinity="com.t.multiFinish"/>
         <activity android:name=".CookieActivity" />
-        <activity android:name=".MoreActivity" />
+        <activity android:name=".ResultActivity" android:taskAffinity="com.t.multiFinish"/>
     </application>
 
 </manifest>

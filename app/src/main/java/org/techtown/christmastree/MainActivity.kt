@@ -23,19 +23,16 @@ class MainActivity : AppCompatActivity() {
 
         val tree = Intent(this@MainActivity, TreeSplashActivity::class.java)
         val cookie = Intent(this@MainActivity, CookieActivity::class.java)
-        val more = Intent(this@MainActivity, MoreActivity::class.java)
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://forms.gle/GqzDWBcWUAX8EmB69"))
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://forms.gle/P8DnnVkkU6DE3hrs9"))
 
         binding.mainTreeBtn.setOnClickListener{
+            tree.setFlag(Intent.FLAG_ACTIVITY_NEW_TASK)
             startActivity(tree)
         }
         binding.mainCookieBtn.setOnClickListener{
             startActivity(cookie)
         }
-        binding.mainMoreBtn.setOnClickListener{
-            startActivity(more)
-        }
-        binding.mainFeedbackBtn.setOnClickListener{
+        binding.mainFeedbackTv.setOnClickListener{
             startActivity(intent)
         }
     }
